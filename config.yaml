@@ -1,0 +1,23 @@
+provider: "AWS"
+region: "us-west-2"
+# instance type and AMI id
+instance:
+   type: "m1.medium"
+   ami: "ami-141bb974"
+security:
+   key_id: "your_key"
+   access_key: "your_access_key"
+   keypair_name: "ssh_key_name_on_aws"        # SSH public key on Amazon AWS
+   keypair_path: "full_path_ssh_private_key"  # path to SSH private key on your machine
+   ssh_user: "sesl"
+   security_group: "sg-c0a142a4"                            # default security group: you need ports 22,80,443 open
+   # passphrase for root and intermediate CA required to generate SSL certificates for the admin UI
+   ca_passphrase: "phish_lulz_ca_wow!"
+registrar:
+   # TODO -- NOTE this is not finished yet. check the code in namecheap_wrapper.rb to play with it
+   provider: "namecheap"
+   debug: true
+   endpoint: "https://api.sandbox.namecheap.com/xml.response"
+   whitelisted_ip: "your_ip"
+   user: "sandbox_user"
+   key: "sandbox_key"

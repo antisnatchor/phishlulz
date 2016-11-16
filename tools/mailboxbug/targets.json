@@ -1,0 +1,6 @@
+{
+  "targets":[
+   { "type": "outlook_live" , "user": "test1@outlook.com", "password": "password1" },
+   { "type": "outlook_live" , "user": "test2@outlook.com", "password": "password2" }
+  ]
+}
