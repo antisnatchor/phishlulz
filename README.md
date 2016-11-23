@@ -17,6 +17,7 @@ Automatic domain registration is still TODO, however you can play with the almos
 PhishLulz AWS AMI
 -----------------
 The public AMI id is: ami-141bb974
+You want to clone that, add your SSH keys, and use your nre clone.
 
 The following are default passwords for various services, change them.
 
@@ -40,6 +41,15 @@ PhishLulz Toolset
 * **tools/mailboxbug**: multi-threaded webmail data extruder 
 * **tools/mail_parser**: simple script to extract html/txt from an .eml email file
 * **namecheap_wrapper**: WIP for automated domain registration
+
+
+PhishLulz material released at KiwiCon X 
+----------------------------------------
+[![KiwiCon X talk slides](http://www.slideshare.net/micheleorru2/practical-phishing-automation-with-phishlulz-kiwicon-x)](http://www.slideshare.net/micheleorru2/practical-phishing-automation-with-phishlulz-kiwicon-x)
+
+[![PhishLulz phishing](https://vimeo.com/192742480)](https://vimeo.com/192742480)
+
+[![MailBoxBug against Outlook Office365](https://vimeo.com/192742686)](https://vimeo.com/192742686)
 
 
 Requirements
