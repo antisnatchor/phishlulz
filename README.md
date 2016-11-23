@@ -45,11 +45,11 @@ PhishLulz Toolset
 
 PhishLulz material released at KiwiCon X 
 ----------------------------------------
-[![KiwiCon X talk slides](http://www.slideshare.net/micheleorru2/practical-phishing-automation-with-phishlulz-kiwicon-x)](http://www.slideshare.net/micheleorru2/practical-phishing-automation-with-phishlulz-kiwicon-x)
+[![KiwiCon X talk slides]](http://www.slideshare.net/micheleorru2/practical-phishing-automation-with-phishlulz-kiwicon-x)
 
-[![PhishLulz phishing](https://vimeo.com/192742480)](https://vimeo.com/192742480)
+[![PhishLulz phishing]](https://vimeo.com/192742480)
 
-[![MailBoxBug against Outlook Office365](https://vimeo.com/192742686)](https://vimeo.com/192742686)
+[![MailBoxBug against Outlook Office365]](https://vimeo.com/192742686)
 
 
 Requirements
